@@ -2,8 +2,10 @@ import { View, Text, StyleSheet } from 'react-native';
 
 export default function Tab() {
   return (
-    <View style={styles.container}>
-      <Text>Tab About</Text>
+   <View className="flex-1 items-center justify-center bg-white">
+      <Text className="text-xl font-bold text-blue-500">
+        Welcome to Nativewind!
+      </Text>
     </View>
   );
 }
